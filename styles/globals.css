@@ -67,7 +67,7 @@ width: 100%;
 .logo{
   color: gray;
   font-size: 18px;
-  left: 1000 px;
+  
 
 }
 .cart-icon{
@@ -131,7 +131,7 @@ width: 100%;
 
 .hero-banner-container{
   padding: 100px 40px;
-  background-color: #c9bff5;
+  background-color: #82c1f8;
   border-radius: 15px;
   position: relative;
   height: 300px;
@@ -139,7 +139,7 @@ width: 100%;
   width: 100%;
 
 }
-.hero-banner-container .beats-solo{
+.hero-banner-container .car-parts{
   font-size: 20px;
 }
 .hero-banner-container button{
@@ -167,22 +167,22 @@ width: 100%;
 }
 .hero-banner-image{
   position: absolute;
-  top: 10%;
-  right:20%;
-  width: 450px;
+  top: 0%;
+  right:25%;
+  width: 1050px;
   height: 300px;
 }
 
 
 .desc{
 position: absolute;
-right: 10%;
-bottom: 5%;
+right: 0%;
+bottom: 75%;
 width: 300px;
 line-height: 1.3;
 display: flex;
 flex-direction: column;
- color: #324d67;
+ color: #dd07e4;
 
 }
 .desc p{
@@ -247,10 +247,11 @@ text-align: end;
 }
 .footer-banner-image{
   position: absolute;
-  /* top: -35%;
-  left: 8%; */
-  top: -25%;
-  left: 25%;
+  bottom: 25%;
+  left: 8%; 
+  left: 45%;
+  width: 25%;
+  height:55%;
 }
 .banner-desc .right{
   line-height: 1.4;

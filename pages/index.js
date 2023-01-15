@@ -5,10 +5,10 @@ import {client} from '../lib/client';
 const Home = ({products,bannerData}) => {
   return (
     <>
-      <HeroBanner heroBanner={bannerData.length&& bannerData[0]}/>
+      <HeroBanner heroBanner={bannerData.length&& bannerData[1]}/>
       <div className='products-heading'>
         <h2>Best Seller Products</h2>
-        <p>Engine</p>  
+        
       </div> 
 
       <div className='products-container'>
